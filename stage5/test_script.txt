@@ -1,0 +1,9 @@
+ls -l
+chown user1 file1.txt
+ls -l file1.txt
+chown user2:users documents
+ls -l
+chown admin work
+ls -l
+chown invalid_user no_such_file
+exit
