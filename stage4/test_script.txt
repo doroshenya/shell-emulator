@@ -1,0 +1,12 @@
+pwd
+ls
+du
+cd documents
+pwd
+ls
+du
+tac note.txt
+cd /
+tac readme.txt
+du file1.txt
+exit
