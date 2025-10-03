@@ -1,0 +1,9 @@
+pwd
+ls
+cd documents
+pwd
+ls
+cd /
+pwd
+cd invalid_folder
+exit
