@@ -244,7 +244,3 @@ run_interactive.bat
 <img width="461" height="146" alt="Снимок экрана 2025-10-09 100427" src="https://github.com/user-attachments/assets/3c132994-837f-4c84-b462-7f7fe1bb5177" />
 
 
-
-
-run_interactive.bat
-<img width="461" height="146" alt="Снимок экрана 2025-10-09 100427" src="https://github.com/user-attachments/assets/7f708c70-7ee1-4f23-be61-26236c7ef590" />
