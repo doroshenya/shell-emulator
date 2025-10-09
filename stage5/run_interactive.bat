@@ -1,5 +1,5 @@
 @echo off
-echo Starting emulator in interactive mode (Stage 4)...
+echo Starting emulator in interactive mode (Stage 5)...
 py emulator.py --vfs test_vfs.zip
 
 echo.
