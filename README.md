@@ -47,7 +47,8 @@ test_script.txt - тестовые команды
 
 
 Вывод:
-<img width="775" height="52" alt="Снимок экрана 2025-10-09 092603" src="https://github.com/user-attachments/assets/1f68595e-ec1f-4d91-a72d-125610d059a7" />
+<img width="758" height="42" alt="Снимок экрана 2025-10-09 092621" src="https://github.com/user-attachments/assets/fa5fa28c-6b22-4983-adfe-a9572812dc31" />
+
 
 
 3.Реализовать простой парсер, который разделяет ввод на команду и аргументы по пробелам.
@@ -56,7 +57,8 @@ test_script.txt - тестовые команды
 
 
 Вывод:
-<img width="775" height="52" alt="Снимок экрана 2025-10-09 092603" src="https://github.com/user-attachments/assets/890e15c2-58c2-4ddf-b270-08fa2cad96f3" />
+<img width="836" height="41" alt="Снимок экрана 2025-10-09 092640" src="https://github.com/user-attachments/assets/770d2a53-db0a-40a9-87cd-277a8184d57a" />
+
 
 4.Реализовать команды-заглушки, которые выводят свое имя и аргументы: ls, cd.
 Код:
@@ -64,7 +66,9 @@ test_script.txt - тестовые команды
 
 
 Вывод:
-<img width="853" height="80" alt="Снимок экрана 2025-10-09 092702" src="https://github.com/user-attachments/assets/f7ae4810-26c6-47ab-9ded-b6d9763a4cdf" />
+<img width="853" height="80" alt="Снимок экрана 2025-10-09 092702" src="https://github.com/user-attachments/assets/2924f8d6-2bbb-4158-893b-c8b85c729869" />
+
+
 
 5.Реализовать команду exit.
 Код:
@@ -72,19 +76,15 @@ test_script.txt - тестовые команды
 
 
 Вывод:
-<img width="814" height="52" alt="Снимок экрана 2025-10-09 092721" src="https://github.com/user-attachments/assets/c26b89cd-ba3e-45b7-990b-f82ee20ec4ea" />
+<img width="814" height="52" alt="Снимок экрана 2025-10-09 092721" src="https://github.com/user-attachments/assets/065b1193-489a-47d7-a2a0-883691a3ca7d" />
+
 
 6.Продемонстрировать работу прототипа в интерактивном режиме. Необходимо показать примеры работы всей реализованной функциональности, включая обработку ошибок.
 Код:
-
-<img width="369" height="58" alt="Снимок экрана 2025-10-09 092509" src="https://github.com/user-attachments/assets/98b248a3-82ef-4bcb-af4d-7f5bc05af233" />
-
-             было
-
 <img width="512" height="148" alt="image" src="https://github.com/user-attachments/assets/0c069ac3-4bb8-4579-b848-291f877cbdd5" />
-
 Вывод:
-<img width="818" height="87" alt="Снимок экрана 2025-10-09 092758" src="https://github.com/user-attachments/assets/1a2b357d-d0a6-4f91-938d-0a2ccd48b519" />
+<img width="818" height="87" alt="Снимок экрана 2025-10-09 092758" src="https://github.com/user-attachments/assets/adec2255-5533-4427-b442-c7fb22b050f7" />
+
 
 
 
@@ -96,29 +96,39 @@ test_script.txt - тестовые команды
 –Путь к физическому расположению VFS.
 –Путь к стартовому скрипту.
 Код:
-<img width="896" height="232" alt="Снимок экрана 2025-10-09 092903" src="https://github.com/user-attachments/assets/90f7f7da-754e-4138-b3b6-8068384f3ac1" />
-
+<img width="896" height="232" alt="Снимок экрана 2025-10-09 092903" src="https://github.com/user-attachments/assets/32d1be71-e426-47f8-b5c6-46329bc42b5a" />
 Вывод:
+<img width="414" height="84" alt="Снимок экрана 2025-10-09 093152" src="https://github.com/user-attachments/assets/1c40c23b-dd3f-4484-977c-8b5a7dc6b55b" />
 
 
 
 2.Стартовый скрипт для выполнения команд эмулятора: останавливается при первой ошибке. При выполнении скрипта на экране отображается как ввод, так и вывод, имитируя диалог с пользователем.
 Код:
 
-<img width="588" height="605" alt="Снимок экрана 2025-10-09 092923" src="https://github.com/user-attachments/assets/2921a792-c164-427e-b770-0b130aaf8e9f" />
+<img width="840" height="447" alt="image" src="https://github.com/user-attachments/assets/4d85f93a-22f6-4786-8592-d89a7e727097" />
+
 
 Вывод:
+<img width="852" height="191" alt="Снимок экрана 2025-10-09 093205" src="https://github.com/user-attachments/assets/5f1f5f61-8984-474a-a168-6d58ab56f7ba" />
 
 3.Сообщить об ошибке во время исполнения стартового скрипта.
 Код:
+<img width="474" height="114" alt="image" src="https://github.com/user-attachments/assets/9d30b3ce-1889-4917-9c13-e8657f63e4f0" />
 
 Вывод:
+<img width="459" height="130" alt="Снимок экрана 2025-10-09 093701" src="https://github.com/user-attachments/assets/19d29f5f-5786-41d7-ad0a-9cf654971884" />
+
+Для проверки работы кода на несуществующем скрипте, создадим несуществующий скрипт test_missing_script.bat
+<img width="428" height="144" alt="Снимок экрана 2025-10-09 093829" src="https://github.com/user-attachments/assets/9d22f700-8ef8-452b-9707-4c00bca4e2e4" />
+Вывод:
+<img width="459" height="130" alt="Снимок экрана 2025-10-09 093701" src="https://github.com/user-attachments/assets/22b9e3e4-55a8-4e8e-ac87-6d7995a57e23" />
+
 
 4.Создать несколько скриптов реальной ОС, в которой выполняется эмулятор. Включить в каждый скрипт вызовы эмулятора для тестирования всех поддерживаемых параметров командной строки.
-Код:
-
-Вывод:
-
+run_test.bat
+<img width="409" height="135" alt="Снимок экрана 2025-10-09 093048" src="https://github.com/user-attachments/assets/388aa866-ada6-4db7-8484-f3e1787a1dd3" />
+run_interactive.bat
+<img width="452" height="145" alt="Снимок экрана 2025-10-09 093108" src="https://github.com/user-attachments/assets/7845113c-cd33-48f5-b1c0-e60e1c3d837e" />
 
 
 Этап 3. VFS
@@ -126,23 +136,30 @@ test_script.txt - тестовые команды
 Требования:
 1.Все операции должны производиться в памяти. Запрещается распаковывать или иным образом модифицировать данные VFS, за исключением возможных служебных команд.
 Код:
+<img width="521" height="496" alt="Снимок экрана 2025-10-09 094121" src="https://github.com/user-attachments/assets/c1538f25-147c-4d25-a1df-3622fcdd8fa5" />
 
 Вывод:
+<img width="344" height="45" alt="Снимок экрана 2025-10-09 094539" src="https://github.com/user-attachments/assets/d378c31d-59ab-4a6a-a67a-0ad9bb34fd7b" />
 
 2.Источником VFS является ZIP-архив. Для двоичных данных используется base64 или аналогичный формат.
 Код:
+<img width="561" height="234" alt="Снимок экрана 2025-10-09 094143" src="https://github.com/user-attachments/assets/7eccb0bf-40dd-4d4a-a860-84b82ac9d225" />
 
 Вывод:
 
 3.Создать несколько скриптов реальной ОС, в которой выполняется эмулятор. Включить в каждый скрипт вызовы эмулятора для тестирования работы c различными вариантами VFS (минимальный, несколько файлов, не менее 3 уровней файлов и папок).
 Код:
+create_test_vfs.py
+<img width="539" height="186" alt="Снимок экрана 2025-10-09 094220" src="https://github.com/user-attachments/assets/c46b2c31-f366-44f5-acb9-3b68086daea3" />
+
 
 Вывод:
 
 4.Создать стартовый скрипт для тестирования всех реализованных на этом и прошлых этапах команд. Добавить туда примеры всех режимов команд, включая работу с VFS и обработку ошибок.
-Код:
-
+test_script.txt
+<img width="168" height="197" alt="Снимок экрана 2025-10-09 094301" src="https://github.com/user-attachments/assets/dd20deb2-29c5-417e-93d0-f0e51d40ca6f" />
 Вывод:
+<img width="485" height="399" alt="Снимок экрана 2025-10-09 094457" src="https://github.com/user-attachments/assets/188a69ec-b9be-4fd5-a0bd-a3c6fbdd4fd7" />
 
 
 Этап 4. Основные команды
@@ -150,18 +167,28 @@ test_script.txt - тестовые команды
 Требования:
 1.Необходимо реализовать логику для ls и cd.
 Код:
+ls:
+<img width="363" height="189" alt="Снимок экрана 2025-10-09 094637" src="https://github.com/user-attachments/assets/cd980c7b-132f-4358-8b5b-5f91fd535d47" />
+cd:
+<img width="441" height="128" alt="Снимок экрана 2025-10-09 094642" src="https://github.com/user-attachments/assets/86b078ac-e123-40a0-a59b-8f3448c7c518" />
 
 Вывод:
 
 2.Реализовать новые команды: tac, du.
 Код:
+tac:
+<img width="473" height="297" alt="Снимок экрана 2025-10-09 094707" src="https://github.com/user-attachments/assets/7af805a7-b9f2-40a7-b472-a17e645f461e" />
+du:
+<img width="682" height="374" alt="Снимок экрана 2025-10-09 094724" src="https://github.com/user-attachments/assets/0bb39046-1887-48f3-9e01-9d56799d2524" />
 
 Вывод:
 
 3.Создать стартовый скрипт для тестирования всех реализованных на этом этапе команд. Добавить туда примеры всех режимов команд, включая работу с VFS и обработку ошибок.
-Код:
+test_script.txt
+<img width="435" height="254" alt="Снимок экрана 2025-10-09 094743" src="https://github.com/user-attachments/assets/4e660d97-080d-47d0-b3d1-0253ea12d264" />
 
 Вывод:
+<img width="457" height="929" alt="Снимок экрана 2025-10-09 095519" src="https://github.com/user-attachments/assets/7e107613-dc8d-463d-bdc9-c485e06a0881" />
 
 
 
@@ -171,13 +198,33 @@ test_script.txt - тестовые команды
 Требования:
 1.Реализовать команды: chown.
 Код:
-<img width="618" height="511" alt="image" src="https://github.com/user-attachments/assets/66417725-8ab0-4fb2-b1b0-642881c4bd8b" />
+<img width="647" height="422" alt="Снимок экрана 2025-10-09 095612" src="https://github.com/user-attachments/assets/8fb006ec-ba4b-47b4-b7e5-97be6958f3ca" />
+
 
 Вывод:
+<img width="627" height="619" alt="Снимок экрана 2025-10-09 095941" src="https://github.com/user-attachments/assets/1418fde5-88e1-44c9-a6ff-10ace2eecc0d" />
+
+
+
+<img width="563" height="238" alt="Снимок экрана 2025-10-09 100117" src="https://github.com/user-attachments/assets/289117e5-f989-4be9-8f1d-9f528b084bc8" />
+<img width="519" height="380" alt="Снимок экрана 2025-10-09 100105" src="https://github.com/user-attachments/assets/cd4240c8-246f-492a-9137-09c23f2ab48f" />
+
+3. Команда ls -l с подробной информацией
+<img width="851" height="329" alt="Снимок экрана 2025-10-09 100148" src="https://github.com/user-attachments/assets/85f47ebf-e90e-44db-9b3e-62b362b6e07f" />
+Вывод:
+<img width="601" height="748" alt="Снимок экрана 2025-10-09 100210" src="https://github.com/user-attachments/assets/bffabe74-49b4-40b8-9f7c-017e81ed924b" />
+
 
 2.Создать стартовый скрипт для тестирования всех реализованных на этом этапе команд. Добавить туда примеры всех режимов команд, включая работу с VFS и обработку ошибок.
-Код:
+test_script.txt
+<img width="449" height="196" alt="Снимок экрана 2025-10-09 100236" src="https://github.com/user-attachments/assets/3e294b60-fbba-4247-a33e-24c3c13838a6" />
 
-Вывод:
 
+Полный вывод:
+<img width="610" height="969" alt="Снимок экрана 2025-10-09 100305" src="https://github.com/user-attachments/assets/033345ba-7ea8-4e1a-8796-8b84d5d44f9d" />
 
+run_test.bat
+<img width="515" height="218" alt="Снимок экрана 2025-10-09 100336" src="https://github.com/user-attachments/assets/45a49a98-a7d3-443f-8837-720173c6a8b7" />
+
+run_interactive.bat
+<img width="461" height="146" alt="Снимок экрана 2025-10-09 100427" src="https://github.com/user-attachments/assets/7f708c70-7ee1-4f23-be61-26236c7ef590" />
