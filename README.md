@@ -35,39 +35,56 @@ test_script.txt - тестовые команды
 Требования:
 1.Приложение должно быть реализовано в форме консольного интерфейса (CLI).
 Код:
-<img width="829" height="189" alt="image" src="https://github.com/user-attachments/assets/9ccbf15a-882a-46b2-a8c1-b7356ddcc46c" />
+<img width="823" height="355" alt="Снимок экрана 2025-10-09 092340" src="https://github.com/user-attachments/assets/eb59df00-58d2-42e2-8ca8-dcd08758c75d" />
+
 Вывод:
+<img width="775" height="52" alt="Снимок экрана 2025-10-09 092603" src="https://github.com/user-attachments/assets/433ff0b4-4eb9-49fb-a0f0-d70cb1295cf6" />
 
 2.Приглашение к вводу должно формироваться на основе реальных данных ОС, в которой исполняется эмулятор. Пример: username@hostname:~$.
 Код:
-<img width="581" height="37" alt="image" src="https://github.com/user-attachments/assets/30d391f3-50dc-4312-bcce-83b2c60fd596" />
-<img width="607" height="21" alt="image" src="https://github.com/user-attachments/assets/08c315a6-4011-4446-a5da-07dbfaf8a0c3" />
+<img width="568" height="34" alt="Снимок экрана 2025-10-09 092406" src="https://github.com/user-attachments/assets/d48edefa-df65-430d-a9cb-a753d7c35a30" />
+<img width="609" height="38" alt="Снимок экрана 2025-10-09 092412" src="https://github.com/user-attachments/assets/87c13d6a-e6d9-44eb-81a2-03d0202b764b" />
+
 
 Вывод:
+<img width="775" height="52" alt="Снимок экрана 2025-10-09 092603" src="https://github.com/user-attachments/assets/1f68595e-ec1f-4d91-a72d-125610d059a7" />
+
 
 3.Реализовать простой парсер, который разделяет ввод на команду и аргументы по пробелам.
 Код:
-<img width="328" height="138" alt="image" src="https://github.com/user-attachments/assets/6ef765b6-bcab-46db-be6f-0689690a1d8b" />
+<img width="328" height="140" alt="Снимок экрана 2025-10-09 092437" src="https://github.com/user-attachments/assets/81895011-d47f-4da5-a990-07ddbaaf8cee" />
+
 
 Вывод:
+<img width="775" height="52" alt="Снимок экрана 2025-10-09 092603" src="https://github.com/user-attachments/assets/890e15c2-58c2-4ddf-b270-08fa2cad96f3" />
 
 4.Реализовать команды-заглушки, которые выводят свое имя и аргументы: ls, cd.
 Код:
-<img width="538" height="212" alt="image" src="https://github.com/user-attachments/assets/020ac1a9-c6f5-4779-ab4d-f996ae2cc500" />
+<img width="532" height="204" alt="Снимок экрана 2025-10-09 092450" src="https://github.com/user-attachments/assets/368b287e-c5d3-4042-9d76-2f7859482306" />
+
 
 Вывод:
+<img width="853" height="80" alt="Снимок экрана 2025-10-09 092702" src="https://github.com/user-attachments/assets/f7ae4810-26c6-47ab-9ded-b6d9763a4cdf" />
 
 5.Реализовать команду exit.
 Код:
-<img width="316" height="74" alt="image" src="https://github.com/user-attachments/assets/5b7b2e5c-9d21-4663-a636-3d44c1d5ae3c" />
+<img width="310" height="70" alt="Снимок экрана 2025-10-09 092458" src="https://github.com/user-attachments/assets/1e3c7f98-4a12-4fae-ab8d-99b907e65f44" />
+
 
 Вывод:
+<img width="814" height="52" alt="Снимок экрана 2025-10-09 092721" src="https://github.com/user-attachments/assets/c26b89cd-ba3e-45b7-990b-f82ee20ec4ea" />
 
 6.Продемонстрировать работу прототипа в интерактивном режиме. Необходимо показать примеры работы всей реализованной функциональности, включая обработку ошибок.
 Код:
+
+<img width="369" height="58" alt="Снимок экрана 2025-10-09 092509" src="https://github.com/user-attachments/assets/98b248a3-82ef-4bcb-af4d-7f5bc05af233" />
+
+             было
+
 <img width="512" height="148" alt="image" src="https://github.com/user-attachments/assets/0c069ac3-4bb8-4579-b848-291f877cbdd5" />
 
 Вывод:
+<img width="818" height="87" alt="Снимок экрана 2025-10-09 092758" src="https://github.com/user-attachments/assets/1a2b357d-d0a6-4f91-938d-0a2ccd48b519" />
 
 
 
@@ -79,7 +96,8 @@ test_script.txt - тестовые команды
 –Путь к физическому расположению VFS.
 –Путь к стартовому скрипту.
 Код:
-<img width="1166" height="106" alt="image" src="https://github.com/user-attachments/assets/581c33f1-8e58-4aab-b1ad-0ca069c2cb23" />
+<img width="896" height="232" alt="Снимок экрана 2025-10-09 092903" src="https://github.com/user-attachments/assets/90f7f7da-754e-4138-b3b6-8068384f3ac1" />
+
 Вывод:
 
 
@@ -87,6 +105,7 @@ test_script.txt - тестовые команды
 2.Стартовый скрипт для выполнения команд эмулятора: останавливается при первой ошибке. При выполнении скрипта на экране отображается как ввод, так и вывод, имитируя диалог с пользователем.
 Код:
 
+<img width="588" height="605" alt="Снимок экрана 2025-10-09 092923" src="https://github.com/user-attachments/assets/2921a792-c164-427e-b770-0b130aaf8e9f" />
 
 Вывод:
 
